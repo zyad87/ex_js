@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgb(111, 141, 194) 0%, rgb(82, 92, 184) 50%);
+    font-family: "Noto Kufi Arabic", system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 2px solid #eee;
+}
+
+.card {
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.prayerTimes .bg-success {
+    background-color: #525cb8 !important;
+}
+
+.prayerTimes span {
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+button:focus {
+    outline: none;
+}

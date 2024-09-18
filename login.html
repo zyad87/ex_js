@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> تسجيل الدخول</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/log.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./img/log.png" alt="Logo" width="30" height="30">
+            اِستَذكَرَ
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="تبديل التنقل">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="btn btn-outline-success" href="./index.html" style="border-radius: 0;">إنشاء حساب <i class="fa-solid fa-user-plus"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container d-flex justify-content-center align-items-center mt-5">
+<div class="login-page">
+    <div class="form">
+        <input type="text" id="username" placeholder="اسم المستخدم">
+        <div id="usernameAlertMessage" class="alertMessage hidden">اسم المستخدم غير صالح</div>
+        <input type="password" id="password" placeholder="كلمة المرور">
+        <div id="passwordAlertMessage" class="alertMessage hidden mb-3">كلمة المرور غير صالحة</div>
+        <button id="loginButton" class="mt-3">تسجيل الدخول</button>
+        <p class="message">ليس لديك حساب؟ <a href="./index.html">إنشاء حساب</a></p>
+    </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./log.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgb(111, 141, 194) 0%, rgb(82, 92, 184) 50%);
+    font-family: "Noto Kufi Arabic", system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 2px solid #eee;
+}
+
+.containerButtons {
+    background: #FFFFFF;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 0;
+    width: 100%;
+    max-width: 80%;
+}
+
+.containerButtons h1 {
+    margin-bottom: 20px;
+}
+
+.containerButtons button {
+    font-family: "Noto Kufi Arabic", system-ui;
+    outline: 0;
+    background: #525cb8;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.containerButtons button:hover, 
+.containerButtons button:active, 
+.containerButtons button:focus {
+    background: #525cb8;
+}
+
+.containerButtons a {
+    text-decoration: none;
+    display: block;
+}
+
